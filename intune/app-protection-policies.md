@@ -137,7 +137,7 @@ To see the effect of the changes immediately, the end user must sign out of the 
 4.  Select the **Save** icon to save your changes. Repeat the process to select a settings area and modify and then save your changes, until all your changes are complete. You can then close the *Intune App Protection - Properties* pane. 
 
 ## Target app protection policies based on device management state
-In many organizations, it’s common to allow end users to use both Intune Mobile Device Management (MDM) managed devices, such as corporate owned devices, and un-managed devices protected with only Intune app protection policies. Unmanaged devices are often known as Bring Your Own Devices (BYOD).
+In many organizations, it’s common to allow end users to use both Intune Mobile Device Management (MDM) managed devices, such as corporate owned devices, and un-managed devices protected with only Intune app protection policies. 
 
 Because Intune app protection policies target a user’s identity, the protection settings for a user can apply to both enrolled (MDM managed) and non-enrolled devices (no MDM). Therefore, you can target an Intune app protection policy to either Intune enrolled or unenrolled iOS and Android devices. You can have one protection policy for un-managed devices in which strict data loss prevention (DLP) controls are in place, and a separate protection policy for MDM managed devices, where the DLP controls may be a little more relaxed. 
 
